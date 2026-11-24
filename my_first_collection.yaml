@@ -136,6 +136,29 @@ collection:
             send: true
             store: true
           rebuildPath: true
+      - url: "{{ _.hostname }}/api/items/80d9128f-92f2-4f8b-bf32-395617afc484"
+        name: item detail
+        meta:
+          id: req_ddf5a236bb1b4c10b96735a5981ec149
+          created: 1795482002050
+          modified: 1795482005706
+          isPrivate: false
+          description: ""
+          sortKey: -1795222967637.5
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/12.6.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
 cookieJar:
   name: Default Jar
   meta:
